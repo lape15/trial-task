@@ -1,0 +1,39 @@
+.side_image_con {
+  flex: 1 1 0;
+  text-align: center;
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 50px;
+}
+.side_image_con h3 {
+  color: #405cc1;
+  font-size: 2.5rem;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  line-height: 2;
+  top: 120px;
+  letter-spacing: 1px;
+}
+.imag_con {
+  width: 75%;
+  margin-top: 2.5rem;
+}
+.side_image_con img {
+  width: 100%;
+}
+.side_image_con a {
+  color: #6c82d0;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  line-height: 2;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 480px) {
+  .side_image_con {
+    width: 100%;
+  }
+}

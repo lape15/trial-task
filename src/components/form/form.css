@@ -1,0 +1,91 @@
+.form-bg {
+  flex: 1 1 0;
+  padding: 10px 20px;
+  font-family: "Roboto", sans-serif;
+  background: #fff;
+  border-radius: 12px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-bg form {
+  padding: 20px;
+  height: 92vh;
+  overflow-y: scroll;
+}
+.form-bg form h3 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.info {
+  padding: 20px 30px;
+  font-family: "Roboto", sans-serif;
+}
+.info h3 {
+  padding: 5px;
+}
+.info h3.fault {
+  border-top: 1px solid #b9b9b9;
+  padding: 20px;
+}
+.input_box {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 20px 0;
+  padding: 10px;
+}
+.input_box label {
+  flex-basis: 25%;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.input_con {
+  flex-basis: 70%;
+}
+input {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  color: grey;
+}
+textarea {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  height: 100px;
+}
+input,
+textarea {
+  width: 100%;
+  background: #f3f6f9;
+}
+input[type="file"] {
+  border-radius: 4px;
+  padding: 4px 15px;
+  background: none;
+}
+.bt_info {
+  text-align: right;
+}
+
+.bt_info button {
+  outline: 0;
+  border-radius: 4px;
+  background: #405cc1;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  padding: 8px 35px;
+  font-size: 0.9rem;
+  border: none;
+}
+.field_error {
+  text-align: center;
+  font-size: 0.9rem;
+  color: red;
+  line-height: 2;
+  margin-top: 10px;
+}
+.form-bg form::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
